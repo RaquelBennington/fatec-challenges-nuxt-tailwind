@@ -1,11 +1,11 @@
 <template>
-  <div class="Twitch" width="20" height="20">
-      <img src="~/assets/twitch1.png" alt="Twitch" />
+  <div class="Heart" width="20" height="20">
+      <img src="~/assets/heart.png" alt="Heart" />
   </div>
 </template>
 
 <style scoped>
-.Twitch{
+.Heart{
   display: flex;
   height: 30px;
 }

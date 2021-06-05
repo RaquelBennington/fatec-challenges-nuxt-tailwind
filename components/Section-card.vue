@@ -5,12 +5,11 @@
   >
     <div class="container ml-auto mr-auto flex flex-wrap items-start py-6">
     <Card
-      v-for="product of banana"
+      v-for="product of products"
       :key="product.id"
       :photo="product.photo"
-      :artist="product.artist"
-      :title="product.title"
-      :price="product.price"
+      :icon="product.icon"
+      :legend="product.legend"
     />
   </div>
   </div>
@@ -22,7 +21,7 @@ export default {
   name: "Section-card",
   computed: {
     ...mapState({
-      products: (state) => state.card.products,
+      products: (state) => state.cards.info,
     }),
   },
 };
