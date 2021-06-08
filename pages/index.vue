@@ -1,7 +1,7 @@
 <template>
   <div>
     <Navbar />
-    <Section-card />
+    <Form />
     <Footer />
   </div>
 </template>
